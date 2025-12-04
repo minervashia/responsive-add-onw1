@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <img src="images/logo.png" alt="SheCOdes" class="logo" />
+    <h1>Homework</h1>
+    <style>
+        body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: #231d3c;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+.video-grid-2-column {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.video-grid-3-column {
+  width: 100%;
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.video {
+  margin: 0 auto;
+  aspect-ratio: 21 / 9;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .video-grid-2-columns,
+  .video-grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+ </style>
+ 
+    
+
+    <p>
+      Create a responsive grid with 5 YouTube videos, the first row should have
+      2 columns and the second row should have 3 columns
+    </p>
+
+     <div class="video-grid-2-column">
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/5Vfni0QBn6Y?si=NE_Xll5z7LWYOWrq&amp;controls=0&amp;start=28800"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/JTllQMzbvh8?si=8uA3F1qiC2hqnfm8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer;
+          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+          web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <div class="video-grid-3-column">
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/JTllQMzbvh8?si=8uA3F1qiC2hqnfm8"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer;
+        autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;
+         web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/EzGPmg4fFL8?si=QQsEztdGuhI5oQfX"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/IifC45309Xc?si=7gTlDXdSZm6gma4G"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; 
+  autoplay; clipboard-write; encrypted-media; gyroscope;
+   picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    
+  </body>
+</html>
